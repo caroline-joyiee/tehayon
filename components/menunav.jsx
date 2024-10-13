@@ -110,7 +110,7 @@ const Llinks = () => {
   return (
     <div className='flex flex-col laptop:flex-row desktop:flex-row'>
       <span className='text-black p-5 cursor-pointer hover:border-b-4 hover:font-bold border-lime-600 transition-all'>
-        <a href="http://localhost:5173/home">Home</a>
+        <a href="http://localhost:5173/">Home</a>
       </span>
       <span className='text-black p-5 cursor-pointer hover:border-b-4 hover:font-bold border-lime-600 transition-all'>
         <a href="http://localhost:5173/about">About</a>

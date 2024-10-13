@@ -92,7 +92,7 @@ const Contact = () => {
 <br />
   
   <button className='bg-lime-600 p-2  text-white pl-5 pr-5 ml-5 items-center hover:bg-lime-700 hover:font-bold hover:rounded-lg'>
-   <a href='http://localhost:5173/home'>Widget</a>
+   <a href='http://localhost:5173/'>Widget</a>
     
   </button>
   
