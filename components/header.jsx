@@ -1,16 +1,17 @@
 import React from 'react'
 import Logo from './logo'
-import Headerline from './headerline'
 import Menunav from './menunav'
 import Laptopnav from './laptopnav'
+import GreenLine from './greenLine'
 
 
 const Header = () => {
   return (
-    <div className=''>
-                <Headerline/>
+    <div className='flex justify-around'>
+            {/* <GreenLine/> */}
 
-    <div className='w-full laptop:h-28 bg-white pt-5 p-5 flex justify-around  '>
+
+    <div className='w-full laptop:h-28 bg-white p-5 flex justify-evenly  '>
         <Logo/>
 
         <div>

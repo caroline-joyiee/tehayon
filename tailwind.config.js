@@ -8,7 +8,16 @@ export default {
     extend: {
       flexGrow: {
         2: '2'
-      }
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 10s linear infinite',
+      },
     },
     screens: {
       'tablet': '768px',
