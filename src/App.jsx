@@ -21,7 +21,7 @@ const App = () => {
             element= {<About/>}
             />
 
-            <Route path = 'home'
+            <Route path = '/'
 
             element = { <Home/>}
             />
