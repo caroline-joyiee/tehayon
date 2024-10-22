@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { cassavafarm, fruitimg, img123, img24, img678, logoteyahon, previewHero } from '../assets'
-import Layout from '../../components/layout';
-import Header from '../../components/header';
+import Layout from '../components/layout';
+import Header from '../components/header';
 
 const About = () => {
 
